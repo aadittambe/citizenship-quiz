@@ -1,0 +1,342 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #191a1d;
+	color: #fff1cf;
+}
+/* unvisited link */
+a:link {
+  color: #fff1cf;
+}
+
+/* visited link */
+a:visited {
+  color: #fff1cf;
+}
+
+/* mouse over link */
+a:hover {
+  color: #015668;
+}
+/*font for questions*/
+p{
+	font-family: 'Arvo', serif;
+}
+
+h1{
+	font-family: 'Arvo', serif;
+	color: #f2be54;
+}
+
+h3{
+	font-family: 'Arvo', serif;
+	color: #f2be54;
+	font-weight: lighter;
+
+}
+
+h5{
+	font-family: 'Arvo', serif;
+	line-height: 2;
+	color: #f2be54;
+	font-weight: lighter;
+		font-size: 12px;
+
+}
+
+.container{
+	padding: 40px 40px 40px 40px;
+}
+
+#quiz {
+	background: #263f44;
+	padding: 30px 50px 30px 50px;
+	border-radius: 20px;
+	float: left;
+
+}
+
+input {
+	margin-bottom: 20px;
+	display: block;
+	margin-right: 10px;
+}
+
+
+#button {
+	font-family: 'Arvo', serif;
+	background: #f2be54;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 16px;
+	transition-duration: .5s;
+	margin-top: 15px;
+}
+
+
+
+#button:hover {
+	background: #fff1cf;
+	border: 1px solid #f2be54;
+	color: #263f44;
+	cursor: pointer;
+
+}
+
+#after_submit {
+	font-family: 'Arvo', serif;
+	color: #263f44;
+	visibility: hidden;
+	background: #fff1cf;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+#picture {
+	width: 375px;
+}
+
+#message{
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+}
+
+
+#mc {
+	display: inline;
+}
+
+@media screen and (min-width: 992px) {
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+		background-color: #191a1d;
+		color: #fff1cf;
+	}
+	/* unvisited link */
+	a:link {
+	  color: #fff1cf;
+	}
+
+	/* visited link */
+	a:visited {
+	  color: #fff1cf;
+	}
+
+	/* mouse over link */
+	a:hover {
+	  color: #015668;
+	}
+	/*font for questions*/
+	p{
+		font-family: 'Arvo', serif;
+	}
+
+	h1{
+		font-family: 'Arvo', serif;
+		color: #f2be54;
+	}
+
+	h3{
+		font-family: 'Arvo', serif;
+
+		color: #f2be54;
+		font-weight: lighter;
+
+	}
+
+	h5{
+		font-family: 'Arvo', serif;
+		color: #f2be54;
+		font-weight: lighter;
+
+	}
+
+	.container{
+		padding: 30px 400px 30px 400px;
+	}
+
+	#quiz {
+		background: #263f44;
+		padding: 30px 50px 30px 50px;
+		width: 800px;
+		border-radius: 20px;
+		float: left;
+
+	}
+
+	input {
+		margin-bottom: 20px;
+		display: block;
+		margin-right: 10px;
+	}
+
+
+	#button {
+		font-family: 'Arvo', serif;
+		background: #f2be54;
+		border: none;
+		border-radius: 5px;
+		padding: 10px;
+		font-size: 16px;
+		transition-duration: .5s;
+		margin-top: 15px;
+	}
+
+
+
+	#button:hover {
+		background: #fff1cf;
+		border: 1px solid #f2be54;
+		color: #263f44;
+		cursor: pointer;
+
+	}
+
+	#after_submit {
+		font-family: 'Arvo', serif;
+		color: #263f44;
+		visibility: hidden;
+		background: #fff1cf;
+		padding: 10px 20px 10px 20px;
+		width: 400px;
+		border-radius: 20px;
+		float: left;
+		font-size: 30px;
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+
+	#picture {
+		width: 375px;
+	}
+
+	#message{
+		font-family: Arial, sans-serif;
+		font-size: 18px;
+	}
+
+
+	#mc {
+		display: inline;
+	}
+  }
+
+@media screen and (min-width: 768px) {
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+		background-color: #191a1d;
+		color: #fff1cf;
+	}
+	/* unvisited link */
+	a:link {
+	  color: #fff1cf;
+	}
+
+	/* visited link */
+	a:visited {
+	  color: #fff1cf;
+	}
+
+	/* mouse over link */
+	a:hover {
+	  color: #015668;
+	}
+	/*font for questions*/
+	p{
+		font-family: 'Arvo', serif;
+	}
+
+	h1{
+		font-family: 'Arvo', serif;
+		color: #f2be54;
+	}
+
+	h3{
+		font-family: 'Arvo', serif;
+		color: #f2be54;
+		font-weight: lighter;
+
+	}
+
+	h5{
+		font-family: 'Arvo', serif;
+		color: #f2be54;
+		font-weight: lighter;
+
+	}
+
+	.container{
+		padding: 40px 400 40px 400px;
+	}
+
+	#quiz {
+		background: #263f44;
+		padding: 30px 50px 30px 50px;
+		width: 800px;
+		border-radius: 20px;
+		float: left;
+
+	}
+
+	input {
+		margin-bottom: 20px;
+		display: block;
+		margin-right: 10px;
+	}
+
+
+	#button {
+		font-family: 'Arvo', serif;
+		background: #f2be54;
+		border: none;
+		border-radius: 5px;
+		padding: 10px;
+		font-size: 16px;
+		transition-duration: .5s;
+		margin-top: 15px;
+	}
+
+
+
+	#button:hover {
+		background: #fff1cf;
+		border: 1px solid #f2be54;
+		color: #263f44;
+		cursor: pointer;
+
+	}
+
+	#after_submit {
+		font-family: 'Arvo', serif;
+		color: #263f44;
+		visibility: hidden;
+		background: #fff1cf;
+		padding: 10px 20px 10px 20px;
+		width: 400px;
+		border-radius: 20px;
+		float: left;
+		font-size: 30px;
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+
+	#picture {
+		width: 375px;
+	}
+
+	#message{
+		font-family: Arial, sans-serif;
+		font-size: 18px;
+	}
+
+
+	#mc {
+		display: inline;
+	}
+
+  }

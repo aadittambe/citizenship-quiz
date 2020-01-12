@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz: Can you pass the U.S. citizenship test?</title>
+    <link href ="style.css" rel ="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&amp;display=swap" rel="stylesheet">
+    <script src="typeit.min.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div>
+              <h1 id="simpleUsage"></h1>
+              <script>
+                new TypeIt('#simpleUsage', {
+                  strings: 'Quiz: Can you pass the U.S. citizenship test?',
+                  speed: 100,
+                  waitUntilVisible: true
+                }).go();
+              </script>
+              <h3>The United States has welcomed <a href="https://www.uscis.gov/news/fact-sheets/naturalization-fact-sheet">about 7.2 million naturalized citizens</a> in the past decade. According to an <a href="https://www.washingtonpost.com/immigration/number-of-people-who-became-us-citizens-reached-five-year-high-in-fiscal-2018/2019/06/03/87792204-8608-11e9-a491-25df61c78dc4_story.html"> article</a> in <i>The Washington Post</i>, the United States Citizenship and Immigration Services naturalized 756,800 people in fiscal 2018.</h3>
+              <h3>Before enjoying their rights and privileges as U.S. citizens, immigrants take a 10-question — they are required to answer six correctly to pass. A <a href="https://woodrow.org/news/national-survey-finds-just-1-in-3-americans-would-pass-citizenship-test/">2018 survey</a> found that only 1 in 3 Americans would pass the test. </h3>
+
+              <h5><i>SOURCE: <a href="https://www.uscis.gov/sites/default/files/USCIS/Office%20of%20Citizenship/Citizenship%20Resource%20Center%20Site/Publications/100q.pdf">U.S. Citizenship and Immigration Services</a> </i></h5>
+              <h5>Created by Aadit Tambe</h5>
+      </div>
+
+</div>
+
+<div class="container">
+    <form id = "quiz" name = "quiz">
+
+
+    <!-- <p class = "questions">What day is wine and cheese on</p>
+    <input id = "textbox" type = "text" name = "question1"> -->
+
+    <div id="question0">
+      <p class = "question"></p>
+      <input type = "radio" class="answer a" id = "mc" name = "question0" value = "a"><span class="answer a"></span><br>
+      <input type = "radio" class="answer b" id = "mc" name = "question0" value = "b"><span class="answer b"></span><br>
+      <input type = "radio" class="answer c"id = "mc" name = "question0" value = "c"><span class="answer c"></span><br>
+      <input type = "radio" class="answer d" id = "mc" name = "question0" value = "d"><span class="answer d"></span><br>
+    </div>
+
+    <div id="question1">
+      <p class = "question"></p>
+      <input type = "radio" class="answer a" id = "mc" name = "question1" value = "a"><span class="answer a"></span><br>
+      <input type = "radio" class="answer b" id = "mc" name = "question1" value = "b"><span class="answer b"></span><br>
+      <input type = "radio" class="answer c"id = "mc" name = "question1" value = "c"><span class="answer c"></span><br>
+      <input type = "radio" class="answer d" id = "mc" name = "question1" value = "d"><span class="answer d"></span><br>
+    </div>
+
+    <div id="question2">
+      <p class = "question"></p>
+      <input type = "radio" class="answer a" id = "mc" name = "question2" value = "a"><span class="answer a"></span><br>
+      <input type = "radio" class="answer b" id = "mc" name = "question2" value = "b"><span class="answer b"></span><br>
+      <input type = "radio" class="answer c"id = "mc" name = "question2" value = "c"><span class="answer c"></span><br>
+      <input type = "radio" class="answer d" id = "mc" name = "question2" value = "d"><span class="answer d"></span><br>
+    </div>
+
+    <div id="question3">
+      <p class = "question"></p>
+      <input type = "radio" class="answer a" id = "mc" name = "question3" value = "a"><span class="answer a"></span><br>
+      <input type = "radio" class="answer b" id = "mc" name = "question3" value = "b"><span class="answer b"></span><br>
+      <input type = "radio" class="answer c"id = "mc" name = "question3" value = "c"><span class="answer c"></span><br>
+      <input type = "radio" class="answer d" id = "mc" name = "question3" value = "d"><span class="answer d"></span><br>
+    </div>
+
+    <div id="question4">
+      <p class = "question"></p>
+      <input type = "radio" class="answer a" id = "mc" name = "question4" value = "a"><span class="answer a"></span><br>
+      <input type = "radio" class="answer b" id = "mc" name = "question4" value = "b"><span class="answer b"></span><br>
+      <input type = "radio" class="answer c" id = "mc" name = "question4" value = "c"><span class="answer c"></span><br>
+      <input type = "radio" class="answer d" id = "mc" name = "question4" value = "d"><span class="answer d"></span><br>
+    </div>
+
+    <div id="question5">
+      <p class = "question"></p>
+      <input type = "radio" class="answer a" id = "mc" name = "question5" value = "a"><span class="answer a"></span><br>
+      <input type = "radio" class="answer b" id = "mc" name = "question5" value = "b"><span class="answer b"></span><br>
+      <input type = "radio" class="answer c" id = "mc" name = "question5" value = "c"><span class="answer c"></span><br>
+      <input type = "radio" class="answer d" id = "mc" name = "question5" value = "d"><span class="answer d"></span><br>
+    </div>
+
+    <div id="question6">
+      <p class = "question"></p>
+      <input type = "radio" class="answer a" id = "mc" name = "question6" value = "a"><span class="answer a"></span><br>
+      <input type = "radio" class="answer b" id = "mc" name = "question6" value = "b"><span class="answer b"></span><br>
+      <input type = "radio" class="answer c" id = "mc" name = "question6" value = "c"><span class="answer c"></span><br>
+      <input type = "radio" class="answer d" id = "mc" name = "question6" value = "d"><span class="answer d"></span><br>
+    </div>
+
+    <div id="question7">
+      <p class = "question"></p>
+      <input type = "radio" class="answer a" id = "mc" name = "question7" value = "a"><span class="answer a"></span><br>
+      <input type = "radio" class="answer b" id = "mc" name = "question7" value = "b"><span class="answer b"></span><br>
+      <input type = "radio" class="answer c" id = "mc" name = "question7" value = "c"><span class="answer c"></span><br>
+      <input type = "radio" class="answer d" id = "mc" name = "question7" value = "d"><span class="answer d"></span><br>
+    </div>
+    <div id="question8">
+
+      <p class = "question"></p>
+      <input type = "radio" class="answer a" id = "mc" name = "question8" value = "a"><span class="answer a"></span><br>
+      <input type = "radio" class="answer b" id = "mc" name = "question8" value = "b"><span class="answer b"></span><br>
+      <input type = "radio" class="answer c" id = "mc" name = "question8" value = "c"><span class="answer c"></span><br>
+      <input type = "radio" class="answer d" id = "mc" name = "question8" value = "d"><span class="answer d"></span><br>
+    </div>
+
+    <div id="question9">
+      <p class = "question"></p>
+      <input type = "radio" class="answer a" id = "mc" name = "question9" value = "a"><span class="answer a"></span><br>
+      <input type = "radio" class="answer b" id = "mc" name = "question9" value = "b"><span class="answer b"></span><br>
+      <input type = "radio" class="answer c" id = "mc" name = "question9" value = "c"><span class="answer c"></span><br>
+      <input type = "radio" class="answer d" id = "mc" name = "question9" value = "d"><span class="answer d"></span><br>
+    </div>
+
+
+
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+    </form>
+
+    <div id = "after_submit">
+    <p id = "number_correct"></p>
+    <p id = "message"></p>
+    <img id = "picture">
+    </div>
+
+    <script src = "script.js"></script>
+  </div>
+
+  </body>
+
+</html>
