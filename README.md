@@ -1,2 +1,2 @@
-# corybookerquiz
-Do you think you can date Cory Booker?
+# citizenship-quiz
+Can you pass the U.S. citizenship test?
