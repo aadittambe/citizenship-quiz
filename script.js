@@ -62,7 +62,7 @@
 		{
 		  id: 'question6',
 		  text: 'What is one thing Benjamin Franklin is famous for?',
-		    a: 'Mississippi River',
+		    a: 'wrote the U.S. Constitution',
 		    b: 'Youngest member of the Constitutional Convention',
 		    c: 'U.S. diplomat',
 		    d: 'third president of the United States',
